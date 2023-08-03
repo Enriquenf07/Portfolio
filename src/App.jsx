@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 
-import NavBar from './components/NavBar'
-import NavBtn from './components/NavBtn'
-import AboutView from './components/AboutView'
-import ProjectsView from './components/ProjectsView'
-import ContactView from './components/ContactView'
+import NavBar from './components/Navbar/NavBar'
+import NavBtn from './components/Navbar/NavBtn'
+import AboutView from './components/About/AboutView'
+import ProjectsView from './components/Projects/ProjectsView'
+import ContactView from './components/Contact/ContactView'
 
 function App() {
   const [lightMode, setLightMode] = useState(true)
